@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background-image: url(https://www.titanui.com/wp-content/uploads/2014/01/27/Grey-Checker-Pattern-Background-Vector.jpg)
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+
+.mainRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.ChessCol {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 80%;
+    border: 3px solid white;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:5%;
+}
+.inner-container{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+#bottom-text{
+    text-align: center;
+    width:80%;
+}
+.chess-img{
+    border:white solid 3px;
+}

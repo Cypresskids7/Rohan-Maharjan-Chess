@@ -1,0 +1,62 @@
+body{
+    background-color: darkslategray;
+
+}
+h1{
+    font-family: fantasy;
+font-size: 80px;
+text-align: center;
+color:white;
+
+}
+h1:hover{
+transition:5s ease;
+    color:black    
+}
+.funtext {
+    font-size: 100px;
+    color: blue;
+}
+canvas{
+width: 200px;
+}
+div{
+
+    height: 500px;
+    display: flex; /*flexbox*/
+}
+#can1{
+    background-color: red;
+}
+#can2{
+background-color: blue;
+animation: moveRight 0.25s linear infinite;
+}
+#can3{
+background-color: green ;
+animation: movealsoRight
+}
+@keyframes moveRight{
+    0% {
+    transform: translate(0px) rotate(0deg);
+    }
+    
+    50% {
+        transform: translate(50px) rotate(180deg);
+        }
+    100% {
+        transform: translate(0px) rotate(360deg);
+    }
+}
+@keyframes movealsoRight{
+    0% {
+    transform: translate(0px) rotate(0deg);
+    }
+    
+    50% {
+        transform: translate(50px) rotate(180deg);
+        }
+    100% {
+        transform: translate(0px) rotate(360deg);
+    }
+    }
